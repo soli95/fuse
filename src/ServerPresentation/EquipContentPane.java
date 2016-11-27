@@ -4,22 +4,30 @@ import java.awt.*;
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
 
+/**
+ * @author 김솔이
+ * 2016.11.20 
+ * SE 팀프로젝트 - fuse
+ * 컴과 장비 관리&예약 프로그램
+ * version 1.0
+ */
+
 public class EquipContentPane extends JPanel {
-	public JLabel lbEname;
-	public JTextField tfEname;
-	public JLabel lbType;
-	public JTextField tfType;
-	public JLabel lbAdminNum;
-	public JTextField tfAdminNum;
-	public JLabel lbSerialNum;
-	public JTextField tfSerialNum;
-	public JLabel lbDetails;
-	public JTextField tfDetails;
-	public JLabel lbEStatus;
-	public JTextField tfEStatus;
+	public JLabel lbEname = null;
+	public JTextField tfEname= null;
+	public JLabel lbType= null;
+	public JTextField tfType= null;
+	public JLabel lbAdminNum= null;
+	public JTextField tfAdminNum= null;
+	public JLabel lbSerialNum= null;
+	public JTextField tfSerialNum= null;
+	public JLabel lbDetails= null;
+	public JTextField tfDetails= null;
+	public JLabel lbEStatus= null;
+	public JTextField tfEStatus= null;
 
 	public EquipContentPane() {
-		// 정보 팬*****************************************************************
+		// 정보 팬*****************************************************
 		setVisible(true);
 		setBackground(Color.WHITE);
 		setBorder(new EmptyBorder(5, 5, 5, 5));
